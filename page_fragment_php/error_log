@@ -1,0 +1,104 @@
+[16-Aug-2017 16:54:36 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:54:36 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:54:41 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:54:44 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:55:37 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:55:38 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:55:47 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:56:03 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:57:35 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:57:35 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:58:52 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 16:58:58 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 17:00:18 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:00:18 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:16:40 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:20:12 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:20:12 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:20:59 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:21:00 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:24:30 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:24:30 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 17:26:34 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 17:26:34 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 17:26:36 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 17:26:36 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 17:26:36 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 17:26:36 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 17:32:32 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:06:41 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:06:41 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:06:57 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 43
+[16-Aug-2017 18:07:59 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:07:59 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:07:59 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:08:02 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:08:02 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:08:02 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:08:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:08:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:08:08 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:08:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:08:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:08:14 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:08:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:08:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:08:14 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 50
+[16-Aug-2017 18:10:42 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:10:42 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:10:42 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:11:48 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:11:48 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:11:48 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 49
+[16-Aug-2017 18:19:59 Asia/Kolkata] PHP Notice:  Undefined offset: 6 in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 57
+[16-Aug-2017 18:25:03 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:25:03 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:03 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:03 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:03 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:25:03 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:03 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:03 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:16 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:25:16 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:16 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:16 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:16 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:25:16 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:16 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:25:16 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 18:28:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:28:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:34 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:28:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:34 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:28:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:53 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:28:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:54 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:28:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:54 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:55 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:28:55 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:28:55 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:29:02 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:29:02 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:29:02 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:29:02 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:29:02 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:29:02 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:33:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:33:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:33:37 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:33:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'productData' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 46
+[16-Aug-2017 18:33:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'qty' in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:33:37 Asia/Kolkata] PHP Fatal error:  Cannot use assign-op operators with overloaded objects nor string offsets in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 18:33:59 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 47
+[16-Aug-2017 19:22:45 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[16-Aug-2017 19:22:46 Asia/Kolkata] PHP Notice:  Undefined index: qty in /home/mmfinfotech/public_html/marketplace/page_fragment_php/cart_operations.php on line 48
+[27-Sep-2017 12:47:40 Asia/Kolkata] PHP Warning:  include_once(autologin.php): failed to open stream: No such file or directory in /home/fxpilyzx/public_html/marketplace/page_fragment/define.php on line 98
+[27-Sep-2017 12:47:40 Asia/Kolkata] PHP Warning:  include_once(): Failed opening 'autologin.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/fxpilyzx/public_html/marketplace/page_fragment/define.php on line 98

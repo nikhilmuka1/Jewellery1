@@ -1,0 +1,6 @@
+.chromestyle 			{ width: 100%; }
+/* ######### Style for Drop Down Menu ######### */
+.dropmenudiv 			{ top: 0; z-index:100; width: 145px; position:absolute; visibility: hidden; text-align: left; border: 1px solid #BBB; }
+.dropmenudiv a 			{ display: block; padding: 6px; color: #000; text-decoration: none; background:url(../../css/images/bgtransGray.png) repeat top center; border-bottom: 1px solid #BBB; }	/*THEME CHANGE HERE*/
+* html .dropmenudiv a 	{ }	/*IE only hack*/
+.dropmenudiv a:hover 	{ background:url(../../css/images/bgtransGrays.png) repeat top center; color:#FFF; text-decoration: none; }	/*THEME CHANGE HERE*/

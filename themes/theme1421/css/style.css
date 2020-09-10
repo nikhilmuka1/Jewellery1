@@ -1,0 +1,16 @@
+.social li a {
+    font-size: 17px;
+}
+
+.show {
+    position: absolute !important;
+    left: 4em !important;
+    bottom: -2.5em !important;
+}
+
+.flt {
+    position: absolute;
+    right: -12em;
+    top: 4em;
+}
+.cwfc{ max-width:450px; overflow-x:scroll;}

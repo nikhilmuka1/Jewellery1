@@ -1,0 +1,16 @@
+RewriteEngine On
+
+##For Rest Pages -
+
+#-- User Profile Pages
+RewriteRule ^([0-9a-zA-Z\-]+)/(change-password)/$ change-password.php [L]
+RewriteRule ^([0-9a-zA-Z\-]+)/(my-account)/$ my-account.php [L]
+RewriteRule ^([0-9a-zA-Z\-]+)/(my-order)/$ my-order.php [L]
+RewriteRule ^([0-9a-zA-Z\-]+)/(my-order)/details/$ order_details.php [L]
+RewriteRule ^([0-9a-zA-Z\-]+)/(personal-info)/$ personal-info.php [L]
+RewriteRule ^([0-9a-zA-Z\-]+)/(my_wishlist)/$ my_wishlist.php [L]
+RewriteRule ^([0-9a-zA-Z\-]+)/(my_cart)/$ my_cart.php [L]
+RewriteRule ^([0-9a-zA-Z\-]+)/(my_follow)/$ my_follow.php [L]
+
+
+

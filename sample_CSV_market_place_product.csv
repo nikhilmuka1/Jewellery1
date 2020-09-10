@@ -1,0 +1,5 @@
+sr.no,product name,product_description,product_type,SKU(if you have else auto generated),Brand,category_id,quantity,price,measurement_size,Material,discount,unit_weight,resizable,is_lab_created,product_metal,stone,no_of_stone,stone_setting,stone_color,stone_clarity,stone_shape,carat
+,test,ffff csc,Traditional,,test csv,1,1,111,11,dfd,fff,ff,1,1,test,test,22,222,222,sdd,fff,fdf
+,test2,ffff csv,Traditional,,test csv,1,1,111,11,dfd,fff,ff,1,1,test,test,22,222,222,sdd,fff,fdf
+,test3,ffff csv ,Traditional,,test csv,1,1,111,11,dfd,fff,ff,1,1,test,test,22,222,222,sdd,fff,fdf
+,test4,ffff csv,Traditional,,test csv,1,1,111,11,dfd,fff,ff,1,1,test,test,22,222,222,sdd,fff,fdf

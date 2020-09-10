@@ -1,0 +1,55 @@
+RewriteEngine On
+
+##For Rest Pages -
+
+#-- Admin Profile Pages
+RewriteRule ^(dashboard)/$ profile/dashboard.php [L]
+RewriteRule ^(myprofile)/$ profile/edit_profile.php [L]
+RewriteRule ^(profile-password)/$ profile/changepass.php [L]
+
+#-- Admin category  Pages
+RewriteRule ^(eCommerce)/(company)/$ company/company_list.php [L]
+RewriteRule ^(eCommerce)/(add-company)/$ company/company.php [L]
+
+RewriteRule ^(eCommerce)/(partner-product)/$ partner_product/partner_product_list.php [L]
+RewriteRule ^(eCommerce)/(add-partner-product)/$ partner_product/partner_product.php [L]
+
+
+#-- Admin eCommerce Pages
+RewriteRule ^(eCommerce)/(company)/$ company/company_list.php [L]
+RewriteRule ^(eCommerce)/(add-company)/$ company/company.php [L]
+
+RewriteRule ^(eCommerce)/(partner-product)/$ partner_product/partner_product_list.php [L]
+RewriteRule ^(eCommerce)/(add-partner-product)/$ partner_product/partner_product.php [L]
+
+RewriteRule ^(eCommerce)/(brand)/$ brand/brand_list.php [L]
+RewriteRule ^(eCommerce)/(add-brand)/$ brand/brand.php [L]
+
+RewriteRule ^(eCommerce)/(sub-category)/$ sub-category/sub-category_list.php [L]
+RewriteRule ^(eCommerce)/(add-sub-category)/$ sub-category/sub-category.php [L]
+
+RewriteRule ^(eCommerce)/(product)/$ product/product_list.php [L]
+RewriteRule ^(eCommerce)/(add-product)/$ product/product.php [L]
+RewriteRule ^(eCommerce)/(upload-product)/$ product/upload_product.php [L]
+
+RewriteRule ^(eCommerce)/(view-upload-prescription)/$ upload_prescription/upload_prescription_list.php [L]
+RewriteRule ^(eCommerce)/(view-orders)/$ order/order_list.php [L]
+
+
+#-- Admin Users Pages
+RewriteRule ^(users)/(new-user)/$ user/users.php [L]
+RewriteRule ^(users)/$ user/view-users.php [L]
+
+#RewriteRule ^$ index.php? [L]
+
+#-- Website Pages
+RewriteRule ^(website)/(share-links)/$ social/social-settings.php [L]
+RewriteRule ^(website)/(google-analytic)/$ social/google_analytic.php [L]
+
+RewriteRule ^(website)/(contact)/$ contact/contact-settings.php [L]
+RewriteRule ^(website)/(feature-product)/$ feature_product/feature_product_settings.php [L]
+
+RewriteRule ^(website)/(sponsered)/$ sponsered_ad/sponsered_ad_list.php [L]
+RewriteRule ^(website)/(add-sponsered)/$ sponsered_ad/sponsered_ad.php [L]
+
+

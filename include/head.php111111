@@ -1,0 +1,1047 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <head>
+        <meta charset="utf-8" />
+        <title><?php echo $siteTitle; ?></title>
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        <meta name="description" content="..." />
+        <meta name="keywords" content=".." />
+        <link rel="shortcut icon" href="<?php echo BASE_URL; ?>img/favicon.png">
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/bootstrap.min.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/global.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/autoload/highdpi.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/autoload/jquery.bxslider.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/autoload/responsive-tables.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/autoload/ui-to-top.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/autoload/uniform.default.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/product_list.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/product.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockcart/blockcart.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>js/jquery/plugins/bxslider/jquery.bxslider.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockcategories/blockcategories.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockcurrencies/blockcurrencies.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/blockfacebook/css/blockfacebook.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockcontact/blockcontact.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blocktags/blocktags.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockviewed/blockviewed.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/homeslider/homeslider.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/homefeatured/homefeatured.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/themeconfigurator/css/hooks.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockpermanentlinks/blockpermanentlinks.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/smartblog/css/smartblogstyle.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/smartbloghomelatestnews/css/smartbloglatestnews.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/smartblogtag/css/smartblogtags.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockwishlist/blockwishlist.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmheaderaccount/views/css/tmheaderaccount.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/tmproductlistgallery/views/css/slick.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/tmproductlistgallery/views/css/slick-theme.css" type="text/css" media="all" />
+        <!-- link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmproductlistgallery/views/css/tmproductlistgallery.css" type="text/css" media="all" / -->
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmnewsletter/views/css/tmnewsletter.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/tmolarkchat/views/css/tmolarkchat.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/tmproductvideos/views/css/video/video-js.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/tmproductvideos/views/css/tmproductvideos.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmmegalayout/views/css/tmmegalayout.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmmegamenu/views/css/tmmegamenu.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/motopressslider/views/css/theme.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/motopressslider/views/css/slide.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmhtmlcontent/css/hooks.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmhomepagecategorygallery/views/css/tmhomepagecategorygallery.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmmanufacturerblock/views/css/tmmanufacturerblock.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmadvancedfilter/views/css/tmadvancedfilter.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmcollections/views/css/front_collections.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmsearch/views/css/tmsearch.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmcategoryproducts/views/css/tmcategoryproducts.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmmediaparallax/views/css/tmmediaparallax.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/tmmediaparallax/views/css/rd-parallax.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/themeconfigurator/css/live_configurator.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>modules/themeconfiglink/views/css/themeconfiglink.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmmegalayout/views/css/layouts/Header1.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/tmmegalayout/views/css/layouts/Home1.css" type="text/css" media="all" />
+        <link id="mpsl-core-css" href="<?php echo BASE_URL; ?>modules/motopressslider/vendor/motoslider_core/styles/motoslider.css" rel="stylesheet" type="text/css" media="all" />
+
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
+
+
+
+        <script src="<?php echo BASE_URL; ?>js/jquery/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript">
+            var CUSTOMIZE_TEXTFIELD = 1;
+            var FancyboxI18nClose = 'Close';
+            var FancyboxI18nNext = 'Next';
+            var FancyboxI18nPrev = 'Previous';
+            var TMHEADERACCOUNT_AVATAR = null;
+
+            var TMHEADERACCOUNT_DISPLAY_STYLE = 'onecolumn';
+            var TMHEADERACCOUNT_DISPLAY_TYPE = 'popup';
+            var TMHEADERACCOUNT_FAPPID = '734741803247761';
+            var TMHEADERACCOUNT_FAPPSECRET = 'bdb67b3690ed9256dac2a5229853aa34';
+            var TMHEADERACCOUNT_FSTATUS = '1';
+            var TMHEADERACCOUNT_GAPPID = 'demo';
+            var TMHEADERACCOUNT_GAPPSECRET = 'demo';
+            var TMHEADERACCOUNT_GREDIRECT = 'demo';
+            var TMHEADERACCOUNT_GSTATUS = '1';
+            var TMHEADERACCOUNT_USE_AVATAR = '1';
+            var TMHEADERACCOUNT_USE_REDIRECT = '0';
+            var TMHEADERACCOUNT_VKAPPID = 'demo';
+            var TMHEADERACCOUNT_VKAPPSECRET = 'demo';
+            var TMHEADERACCOUNT_VKREDIRECT = 'demo';
+            var TMHEADERACCOUNT_VKSTATUS = '1';
+            var added_to_collection = 'The product was successfully added to your collection.';
+            var added_to_wishlist = 'The product was successfully added to your wishlist.';
+            var ajax_allowed = true;
+            var ajaxsearch = true;
+            var back_btn_text = 'Back';
+            var baseDir = '/';
+            var baseUri = '/';
+            var blocking_popup = '1';
+            var btn_collection = 'My collections';
+            var change_name_collection = 'Change name';
+            var collection_no_product = 'No products in this collection';
+            var collection_title_step_1 = 'Step 1';
+            var collection_title_step_1_desc = '(Select a layout to create an image that you want to post)';
+            var collection_title_step_2 = 'Step 2';
+            var collection_title_step_2_desc = '(Add to the image of the cell)';
+            var comparator_max_item = 2;
+            var comparedProductsIds = [];
+            var contentOnly = false;
+            var countries = {
+                "21": {
+                    "id_country": "21",
+                    "id_lang": "1",
+                    "name": "United States",
+                    "id_zone": "2",
+                    "id_currency": "0",
+                    "iso_code": "US",
+                    "call_prefix": "1",
+                    "active": "1",
+                    "contains_states": "1",
+                    "need_identification_number": "0",
+                    "need_zip_code": "1",
+                    "zip_code_format": "NNNNN",
+                    "display_tax_label": "0",
+                    "country": "United States",
+                    "zone": "North America",
+                    "states": [{
+                            "id_state": "1",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Alabama",
+                            "iso_code": "AL",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "2",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Alaska",
+                            "iso_code": "AK",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "3",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Arizona",
+                            "iso_code": "AZ",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "4",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Arkansas",
+                            "iso_code": "AR",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "5",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "California",
+                            "iso_code": "CA",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "6",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Colorado",
+                            "iso_code": "CO",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "7",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Connecticut",
+                            "iso_code": "CT",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "8",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Delaware",
+                            "iso_code": "DE",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "53",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "District of Columbia",
+                            "iso_code": "DC",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "9",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Florida",
+                            "iso_code": "FL",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "10",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Georgia",
+                            "iso_code": "GA",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "11",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Hawaii",
+                            "iso_code": "HI",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "12",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Idaho",
+                            "iso_code": "ID",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "13",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Illinois",
+                            "iso_code": "IL",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "14",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Indiana",
+                            "iso_code": "IN",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "15",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Iowa",
+                            "iso_code": "IA",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "16",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Kansas",
+                            "iso_code": "KS",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "17",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Kentucky",
+                            "iso_code": "KY",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "18",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Louisiana",
+                            "iso_code": "LA",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "19",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Maine",
+                            "iso_code": "ME",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "20",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Maryland",
+                            "iso_code": "MD",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "21",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Massachusetts",
+                            "iso_code": "MA",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "22",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Michigan",
+                            "iso_code": "MI",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "23",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Minnesota",
+                            "iso_code": "MN",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "24",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Mississippi",
+                            "iso_code": "MS",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "25",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Missouri",
+                            "iso_code": "MO",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "26",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Montana",
+                            "iso_code": "MT",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "27",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Nebraska",
+                            "iso_code": "NE",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "28",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Nevada",
+                            "iso_code": "NV",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "29",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "New Hampshire",
+                            "iso_code": "NH",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "30",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "New Jersey",
+                            "iso_code": "NJ",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "31",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "New Mexico",
+                            "iso_code": "NM",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "32",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "New York",
+                            "iso_code": "NY",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "33",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "North Carolina",
+                            "iso_code": "NC",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "34",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "North Dakota",
+                            "iso_code": "ND",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "35",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Ohio",
+                            "iso_code": "OH",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "36",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Oklahoma",
+                            "iso_code": "OK",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "37",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Oregon",
+                            "iso_code": "OR",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "38",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Pennsylvania",
+                            "iso_code": "PA",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "51",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Puerto Rico",
+                            "iso_code": "PR",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "39",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Rhode Island",
+                            "iso_code": "RI",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "40",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "South Carolina",
+                            "iso_code": "SC",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "41",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "South Dakota",
+                            "iso_code": "SD",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "42",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Tennessee",
+                            "iso_code": "TN",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "43",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Texas",
+                            "iso_code": "TX",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "52",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "US Virgin Islands",
+                            "iso_code": "VI",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "44",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Utah",
+                            "iso_code": "UT",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "45",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Vermont",
+                            "iso_code": "VT",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "46",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Virginia",
+                            "iso_code": "VA",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "47",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Washington",
+                            "iso_code": "WA",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "48",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "West Virginia",
+                            "iso_code": "WV",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "49",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Wisconsin",
+                            "iso_code": "WI",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }, {
+                            "id_state": "50",
+                            "id_country": "21",
+                            "id_zone": "2",
+                            "name": "Wyoming",
+                            "iso_code": "WY",
+                            "tax_behavior": "0",
+                            "active": "1"
+                        }]
+                }
+            };
+            var currency = {
+                "id": 1,
+                "name": "Dollar",
+                "iso_code": "USD",
+                "iso_code_num": "840",
+                "sign": "$",
+                "blank": "0",
+                "conversion_rate": "1.000000",
+                "deleted": "0",
+                "format": "1",
+                "decimals": "1",
+                "active": "1",
+                "prefix": "$ ",
+                "suffix": "",
+                "id_shop_list": null,
+                "force_id": false
+            };
+            var currencyBlank = 0;
+            var currencyFormat = 1;
+            var currencyRate = 1;
+            var currencySign = '$';
+            var customizationIdMessage = 'Customization #';
+            var delete_txt = 'Delete';
+            var displayList = false;
+            var email_create = false;
+            var freeProductTranslation = 'Free!';
+            var freeShippingTranslation = 'Free shipping!';
+            var generated_date = 1492497181;
+            var hasDeliveryAddress = false;
+            var highDPI = false;
+            var homeslider_loop = 1;
+            var homeslider_pause = 3000;
+            var homeslider_speed = 500;
+            var homeslider_width = 10000;
+            var idSelectedCountry = false;
+            var idSelectedCountryInvoice = false;
+            var idSelectedState = false;
+            var idSelectedStateInvoice = false;
+            var id_lang = 1;
+            var img_dir = '/';
+            var instantsearch = true;
+            var isGuest = 0;
+            var isLogged = 0;
+            var isMobile = false;
+            var is_logged = false;
+            var loggin_collection_required = 'You must be logged in to manage your collection.';
+            var loggin_required = 'You must be logged in to manage your wishlist.';
+            var logo_url = '<?php echo BASE_URL; ?>img/new-store-logo-1487249703.jpg';
+            var max_item = 'You cannot add more than 2 product(s) to the product comparison';
+            var min_item = 'Please select at least one product';
+            var module_url = 'indexf4d4.html?fc=module&amp;module=tmnewsletter&amp;controller=default&amp;id_lang=1';
+            var mycollections_url = 'index1892.html?fc=module&amp;module=tmcollections&amp;controller=collections&amp;id_lang=1';
+            var mywishlist_url = 'indexc5b9.html?fc=module&amp;module=blockwishlist&amp;controller=mywishlist&amp;id_lang=1';
+            var nbItemsPerLine = 4;
+            var nbItemsPerLineMobile = 2;
+            var nbItemsPerLineTablet = 3;
+            var page_name = 'index';
+            var placeholder_blocknewsletter = 'Enter your e-mail';
+            var popup_status = true;
+            var priceDisplayMethod = 1;
+            var priceDisplayPrecision = 2;
+            var quickView = true;
+            var removingLinkText = 'remove this product from my cart';
+            var roundMode = 2;
+            var search_url_local = 'indexd7d7.html?fc=module&amp;module=tmsearch&amp;controller=ajaxsearch&amp;id_lang=1';
+            var search_url_local_instant = 'index7149.html?fc=module&amp;module=tmsearch&amp;controller=instantsearch&amp;id_lang=1';
+            var share_btn_text = 'Share';
+            var static_token = 'b09dc23fd957b01563fb3e97ae421c9c';
+            var tmnewsletter_status = '2';
+            var tmolarkchat_status = '2';
+            var tmsearch_highlight = '1';
+            var tmsearch_itemstoshow = '3';
+            var tmsearch_minlength = '3';
+            var tmsearch_navigation = '1';
+            var tmsearch_navigation_position = 'bottom';
+            var tmsearch_pager = '1';
+            var tmsearch_showall_text = 'Display all results(%s more)';
+            var tmsearch_showallresults = '1';
+            var toBeDetermined = 'To be determined';
+            var token = '71170f90d298dc3adbe73c02cd7f3242';
+            var use_tm_ajax_search = true;
+            var use_tm_instant_search = true;
+            var user_newsletter_status = 0;
+            var usingSecureMode = true;
+            var wishlistProductsIds = false;
+        </script>
+        <script type="text/javascript">
+            var TM_PLG_TYPE = 'rollover';
+            var TM_PLG_ROLLOVER_ANIMATION = 'opacity';
+            var TM_PLG_DISPLAY_ITEMS = 20;
+            var TM_PLG_INFINITE = 1;
+            var TM_PLG_USE_PAGER = 1;
+            var TM_PLG_USE_CONTROLS = 1;
+            var TM_PLG_USE_THUMBNAILS = 1;
+            var TM_PLG_USE_CAROUSEL = 1;
+            var TM_PLG_USE_CONTROLS_THUMBNAILS = 1;
+            var TM_PLG_USE_PAGER_THUMBNAILS = 1;
+            var TM_PLG_CENTERING_THUMBNAILS = false;
+            var TM_PLG_POSITION_THUMBNAILS = 'horizontal';
+            var TM_PLG_NB_THUMBNAILS = 3;
+            var TM_PLG_NB_SCROLL_THUMBNAILS = 1;
+        </script>
+        <!-- MOTOSLIDER HEADER -->
+        <style type="text/css">
+            .mpsl-layer.mpsl-btn-blue,
+            #footer .mpsl-layer.mpsl-btn-blue {
+                background-color: #20b9d5;
+                color: #ffffff;
+                font-size: 18px;
+                font-family: Open Sans;
+                text-shadow: 0px 1px 0px #06879f;
+                padding-top: 12px;
+                padding-right: 28px;
+                padding-bottom: 13px;
+                padding-left: 28px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                text-decoration: none;
+                -webkit-box-shadow: 0px 2px 0px 0px #06879f;
+                -moz-box-shadow: 0px 2px 0px 0px #06879f;
+                box-shadow: 0px 2px 0px 0px #06879f;
+            }
+
+            .mpsl-layer.mpsl-btn-blue,
+            #footer .mpsl-layer.mpsl-btn-blue:hover {}
+
+            .mpsl-layer.mpsl-btn-green,
+            #footer .mpsl-layer.mpsl-btn-green {
+                background-color: #58cf6e;
+                color: #ffffff;
+                font-size: 18px;
+                font-family: Open Sans;
+                text-shadow: 0px 1px 0px #17872d;
+                padding-top: 12px;
+                padding-right: 28px;
+                padding-bottom: 13px;
+                padding-left: 28px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                text-decoration: none;
+                -webkit-box-shadow: 0px 2px 0px 0px #2ea044;
+                -moz-box-shadow: 0px 2px 0px 0px #2ea044;
+                box-shadow: 0px 2px 0px 0px #2ea044;
+            }
+
+            .mpsl-layer.mpsl-btn-green,
+            #footer .mpsl-layer.mpsl-btn-green:hover {}
+
+            .mpsl-layer.mpsl-btn-red,
+            #footer .mpsl-layer.mpsl-btn-red {
+                background-color: #e75d4a;
+                color: #ffffff;
+                font-size: 18px;
+                font-family: Open Sans;
+                text-shadow: 0px 1px 0px #c03826;
+                padding-top: 12px;
+                padding-right: 28px;
+                padding-bottom: 13px;
+                padding-left: 28px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                text-decoration: none;
+                -webkit-box-shadow: 0px 2px 0px 0px #cd3f2b;
+                -moz-box-shadow: 0px 2px 0px 0px #cd3f2b;
+                box-shadow: 0px 2px 0px 0px #cd3f2b;
+            }
+
+            .mpsl-layer.mpsl-btn-red,
+            #footer .mpsl-layer.mpsl-btn-red:hover {}
+
+            .mpsl-layer.mpsl-txt-header-dark,
+            #footer .mpsl-layer.mpsl-txt-header-dark {
+                color: #000000;
+                font-size: 48px;
+                font-family: Open Sans;
+                font-weight: 300;
+                letter-spacing: -0.025em;
+            }
+
+            .mpsl-layer.mpsl-txt-header-dark,
+            #footer .mpsl-layer.mpsl-txt-header-dark:hover {}
+
+            .mpsl-layer.mpsl-txt-header-white,
+            #footer .mpsl-layer.mpsl-txt-header-white {
+                color: #ffffff;
+                font-size: 48px;
+                font-family: Open Sans;
+                font-weight: 300;
+                letter-spacing: -0.025em;
+            }
+
+            .mpsl-layer.mpsl-txt-header-white,
+            #footer .mpsl-layer.mpsl-txt-header-white:hover {}
+
+            .mpsl-layer.mpsl-txt-sub-header-dark,
+            #footer .mpsl-layer.mpsl-txt-sub-header-dark {
+                background-color: rgba(0, 0, 0, 0.6);
+                color: #ffffff;
+                font-size: 26px;
+                font-family: Open Sans;
+                font-weight: 300;
+                padding-top: 14px;
+                padding-right: 14px;
+                padding-bottom: 14px;
+                padding-left: 14px;
+            }
+
+            .mpsl-layer.mpsl-txt-sub-header-dark,
+            #footer .mpsl-layer.mpsl-txt-sub-header-dark:hover {}
+
+            .mpsl-layer.mpsl-txt-sub-header-white,
+            #footer .mpsl-layer.mpsl-txt-sub-header-white {
+                background-color: rgba(255, 255, 255, 0.6);
+                color: #000000;
+                font-size: 26px;
+                font-family: Open Sans;
+                font-weight: 300;
+                padding-top: 14px;
+                padding-right: 14px;
+                padding-bottom: 14px;
+                padding-left: 14px;
+            }
+
+            .mpsl-layer.mpsl-txt-sub-header-white,
+            #footer .mpsl-layer.mpsl-txt-sub-header-white:hover {}
+
+            .mpsl-layer.mpsl-txt-dark,
+            #footer .mpsl-layer.mpsl-txt-dark {
+                color: #000000;
+                font-size: 18px;
+                font-family: Open Sans;
+                font-weight: normal;
+                line-height: 30px;
+                text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45);
+            }
+
+            .mpsl-layer.mpsl-txt-dark,
+            #footer .mpsl-layer.mpsl-txt-dark:hover {}
+
+            .mpsl-layer.mpsl-txt-white,
+            #footer .mpsl-layer.mpsl-txt-white {
+                color: #ffffff;
+                font-size: 18px;
+                font-family: Open Sans;
+                font-weight: normal;
+                line-height: 30px;
+                text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.45);
+            }
+
+            .mpsl-layer.mpsl-txt-white,
+            #footer .mpsl-layer.mpsl-txt-white:hover {}
+
+            .mpsl-layer.mpsl-preset-1,
+            #footer .mpsl-layer.mpsl-preset-1 {
+                color: rgb(93, 93, 93);
+                font-size: 15px;
+                font-family: Roboto;
+                font-weight: normal;
+                line-height: 21px;
+            }
+
+            .mpsl-layer.mpsl-preset-1,
+            #footer .mpsl-layer.mpsl-preset-1:hover {}
+
+            .mpsl-layer.mpsl-preset-2,
+            #footer .mpsl-layer.mpsl-preset-2 {
+                color: rgb(33, 35, 46);
+                font-size: 58px;
+                font-family: Roboto;
+                font-weight: 300;
+                line-height: 75px;
+            }
+
+            .mpsl-layer.mpsl-preset-2,
+            #footer .mpsl-layer.mpsl-preset-2:hover {}
+
+            .mpsl-layer.mpsl-preset-4,
+            #footer .mpsl-layer.mpsl-preset-4 {
+                background-color: rgb(255, 255, 255);
+                color: rgb(47, 44, 47);
+                font-size: 14px;
+                font-family: Arimo;
+                font-weight: 700;
+                letter-spacing: 1.4px;
+                line-height: 16px;
+                text-align: center;
+                border-style: none;
+                border-top-width: 0px;
+                border-right-width: 0px;
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-color: rgb(255, 255, 255);
+                padding-top: 22px;
+                padding-right: 50px;
+                padding-bottom: 22px;
+                padding-left: 50px;
+                -webkit-border-radius: 32px;
+                -moz-border-radius: 32px;
+                border-radius: 32px;
+                text-transform: uppercase;
+            }
+
+            .mpsl-layer.mpsl-preset-4,
+            #footer .mpsl-layer.mpsl-preset-4:hover {}
+
+            .mpsl-layer.mpsl-private-preset-12,
+            #footer .mpsl-layer.mpsl-private-preset-12 {
+                padding-top: 16px;
+                padding-right: 63px;
+                padding-bottom: 16px;
+                padding-left: 63px;
+            }
+
+            .mpsl-layer.mpsl-private-preset-12,
+            #footer .mpsl-layer.mpsl-private-preset-12:hover {}
+
+            .mpsl-layer.mpsl-private-preset-17,
+            #footer .mpsl-layer.mpsl-private-preset-17 {
+                padding-top: 16px;
+                padding-right: 63px;
+                padding-bottom: 16px;
+                padding-left: 63px;
+            }
+
+            .mpsl-layer.mpsl-private-preset-17,
+            #footer .mpsl-layer.mpsl-private-preset-17:hover {}
+
+            .mpsl-layer.mpsl-private-preset-18,
+            #footer .mpsl-layer.mpsl-private-preset-18 {
+                padding-top: 16px;
+                padding-right: 63px;
+                padding-bottom: 16px;
+                padding-left: 63px;
+            }
+
+            .mpsl-layer.mpsl-private-preset-18,
+            #footer .mpsl-layer.mpsl-private-preset-18:hover {}
+        </style>
+        <!-- END OF MOTOSLIDER HEADER -->
+        <style>
+            #login-modal .modal-dialog{width:350px}
+            #login-modal input[type=text],input[type=password]{margin-top:10px}
+            #div-login-msg,#div-lost-msg,#div-register-msg{border:1px solid #dadfe1;height:30px;line-height:28px;transition:all ease-in-out 500ms}
+            #div-login-msg.success,#div-lost-msg.success,#div-register-msg.success{border:1px solid #68c3a3;background-color:#c8f7c5}
+            #div-login-msg.error,#div-lost-msg.error,#div-register-msg.error{border:1px solid #eb575b;background-color:#ffcad1}
+            #icon-login-msg,#icon-lost-msg,#icon-register-msg{width:30px;float:left;line-height:28px;text-align:center;background-color:#dadfe1;margin-right:5px;transition:all ease-in-out 500ms}
+            #icon-login-msg.success,#icon-lost-msg.success,#icon-register-msg.success{background-color:#68c3a3!important}
+            #icon-login-msg.error,#icon-lost-msg.error,#icon-register-msg.error{background-color:#eb575b!important}
+            #img_logo{max-height:100px;max-width:100px}
+            .modal-backdrop.in{filter:alpha(opacity=50);opacity:.8}
+            .modal-content{background-color:#ececec;border:1px solid #bdc3c7;border-radius:0;outline:0}
+            .modal-header{min-height:16.43px;padding:15px;border-bottom:0}
+            .modal-body{position:relative;padding:5px 15px}
+            .modal-footer{padding:15px;text-align:left;border-top:0}
+            .checkbox{margin-bottom:0}
+            .btn{border-radius:0}
+            .btn:focus,.btn:active:focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn.active.focus{outline:none}
+            .btn-lg,.btn-group-lg>.btn{border-radius:0}
+            .btn-link{padding:5px 10px 0 0;color:#95a5a6}
+            .btn-link:hover,.btn-link:focus{color:#2c3e50;text-decoration:none}
+            .glyphicon{top:0}
+            .form-control{border-radius:0}
+            
+            input.sr-msg-error {
+                border: 1px solid #ff4c39;
+            }
+            input#chkTerm.sr-msg-error {
+                outline: 1px solid red;
+                width: 15px;
+                height: 15px;
+            }
+            
+            ul.nav li.dropdown:hover > ul.dropdown-menu.submenu2 {
+                display: block;    
+            }
+            .dropdown-menu .sub-menu {
+                left: 100%;
+                position: absolute;
+                top: 0;
+                visibility: hidden;
+                margin-top: -1px;
+            }
+            .dropdown li:hover {
+                visibility: visible;
+            }
+
+            .sub-menu li a {
+                color: green;
+            }
+            .nav>li.dropdown>a {
+                position: relative;
+                display: block;
+                padding: 0px 0px !important;
+            }
+            
+            #search_query
+            {
+                color:#000;
+                border:solid 1px #000;
+                padding:10px;
+                font-size:14px;
+            }
+            #result
+            {
+                position:absolute;
+                width:100%;
+                padding:10px;
+                display:none;
+                margin-top:-1px;
+                border-top:0px;
+                overflow:hidden;
+                border:1px #CCC solid;
+                background-color: white;
+            }
+            .show
+            {
+                padding:5px; 
+                border-bottom:1px #999 dashed;
+                font-size:15px; 
+            }
+            .show:hover
+            {
+                background:#4c66a4;
+                color:#FFF;
+                cursor:pointer;
+            }
+            ul#ui-id-1 {
+                display: block;
+                position: relative;
+                width: 47% !important;
+                background: white !important;
+                padding: 0px 10px !important;
+                word-spacing: 2px !important;
+                cursor: pointer;
+                z-index: 9999;
+            }
+            li.ui-menu-item {
+                padding: 3px 0px;
+                border-bottom: 1px solid #ccc;
+            }
+            
+            a.add_bag {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                line-height: 46px;
+                font-size: 16px;
+                color: #7370b4;
+                border: 1px solid #000;
+            }
+            .tovar_view {
+                display: inline-block;
+                padding: 13px 32px;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 14px;
+                color: #000;
+                border: 1px solid #000;
+            }
+            .open-project-link {
+                display: inline-block;
+            }
+       
+        <style>
+  .loading-overlay{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 999;
+         background: rgba(183, 173, 173, 0.5) url(<?php echo BASE_URL; ?>img/loading.gif) no-repeat center center;
+        /*background: rgba(0,0,0,0.5);*/
+        display: none;
+    }
+    .sr-msg-error {
+      border: 1px solid red;
+    color: red !important;
+} </style>
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>css/carts.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/category.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockcategories/blockcategories.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blockcurrencies/blockcurrencies.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>themes/theme1421/css/modules/blocklayered/blocklayered.css" type="text/css" media="all" />
+    </head>

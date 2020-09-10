@@ -1,0 +1,56 @@
+#ErrorDocument 400 /400.php
+#Bad Request
+
+#ErrorDocument 401 /401.php
+#Unautorized
+
+#ErrorDocument 403 /403.php
+#Forbidden
+
+ErrorDocument 404  /404/
+
+
+#ErrorDocument 500 /500.php
+#Internal Server Error
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^(404)/$ 404.php [L]
+##For Rest Pages -
+
+#--  Profile Pages
+RewriteRule ^(all-products)/$ find_products.php [L]
+
+RewriteRule ^(term-condition)/$ tnc.php [L]
+RewriteRule ^(search)/$ search.php [L]
+
+
+RewriteRule ^(company)/([0-9a-zA-Z\-]+)/([-a-zA-Z_&0-9&$,!]+)/$ find_products.php?default=$1&id=$2&title=$3 [L]
+RewriteRule ^([0-9a-zA-Z\-]+)/([-a-zA-Z_&0-9&$,!]+)/$ product.php?id=$1&title=$2 [L]
+
+
+RewriteRule ^(login)/$ login.php [L]
+RewriteRule ^(contact)/$ contact.php [L]
+RewriteRule ^(whislist)/$ whislist.php [L]
+RewriteRule ^(cart)/$ cart-view.php [L]
+RewriteRule ^(design)/$ design.php [L]
+RewriteRule ^(gift)/$ gift.php [L]
+RewriteRule ^(grid)/$ grid-view.php [L]
+RewriteRule ^(grid)/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+)/$ grid-view.php [L]
+RewriteRule ^(grid)/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+)/$ grid-view.php [L]
+RewriteRule ^(grid)/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+)/$ grid-view.php [L]
+RewriteRule ^(detail)/([0-9a-zA-Z\-]+)/([-a-zA-Z_&0-9&$,!]+)/$ detail.php [L]
+RewriteRule ^(seller-profile)/$ seller-profile.php [L]
+RewriteRule ^(seller-profile)/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+)/$ seller-profile.php [L]
+RewriteRule ^(seller-shop)/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+)/$ seller-shop.php [L]
+RewriteRule ^(checkout)/$ checkout-view.php [L]
+
+RewriteRule ^(gifts)/$ gift.php [L]
+RewriteRule ^(sale)/$ sale.php [L]
+RewriteRule ^(openyourshop)/$ openyourshop.php [L]
+RewriteRule ^(brands)/$ brands.php [L]
+RewriteRule ^(designers)/$ brands.php [L]
+
+

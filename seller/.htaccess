@@ -1,0 +1,48 @@
+RewriteEngine On
+
+##For Rest Pages -
+
+#-- Seller Profile Pages
+RewriteRule ^(dashboard)/$ profile/dashboard.php [L]
+RewriteRule ^(myprofile)/$ profile/edit_profile.php [L]
+RewriteRule ^(myshop)/$ profile/manage_shop.php [L]
+RewriteRule ^(profile-password)/$ profile/changepass.php [L]
+
+#-- Seller category  Pages
+RewriteRule ^(category)/(add-category)/$ category/category.php [L]
+RewriteRule ^(category)/(category-list)/$ category/category_list.php [L]
+
+#-- Seller Users Pages
+RewriteRule ^(users)/(new-user)/$ user/users.php [L]
+RewriteRule ^(users)/$ user/view-users.php [L]
+
+#-- Seller Users Pages
+RewriteRule ^(shipping-and-return)/$ profile/shipping-and-return.php [L]
+
+#-- products Pages
+RewriteRule ^(products)/(new-product)/$ products/product.php [L]
+RewriteRule ^(products)/(new-product-step2-configure)/$ products/new-product-step2_configure.php [L]
+RewriteRule ^(products)/(new-product1)/$ products/product-one.php [L]
+RewriteRule ^(products)/(new-productcsv)/$ products/products-csv.php [L]
+RewriteRule ^()(products)/$ products/view-products.php [L]
+RewriteRule ^()(products-view)/$ products/product_view.php [L]
+
+#-- seller orders Pages
+RewriteRule ^(orders)/$ orders/order_list.php [L]
+RewriteRule ^(order)/(details)/$ orders/order.php [L]
+
+#RewriteRule ^$ index.php? [L]
+
+#-- Website Pages
+RewriteRule ^(website)/(share-links)/$ social/social-settings.php [L]
+RewriteRule ^(website)/(google-analytic)/$ social/google_analytic.php [L]
+
+RewriteRule ^(website)/(contact)/$ contact/contact-settings.php [L]
+RewriteRule ^(website)/(feature-product)/$ feature_product/feature_product_settings.php [L]
+
+RewriteRule ^(website)/(sponsered)/$ sponsered_ad/sponsered_ad_list.php [L]
+RewriteRule ^(website)/(add-sponsered)/$ sponsered_ad/sponsered_ad.php [L]
+
+RewriteRule ^(contests)/$ contest/view-contest.php [L]
+RewriteRule ^(contests)/(participate)/$ contest/participate.php [L]
+
