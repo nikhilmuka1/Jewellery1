@@ -1,0 +1,100 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+ acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, 
+ sub, sup, tt, var, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+ caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, 
+ footer, header, hgroup, menu, nav, output,  section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	box-sizing:border-box;
+}
+
+body {
+	line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ .menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li{
+    text-decoration: none;
+}
+
+ 
+.menu a{
+    color:black;
+}
+.inner{
+    padding: 2rem;
+}
+/*two image*/
+
+ .container {
+    margin: 0 auto;
+    /*min-width: 65rem;*/
+ }
+
+.image{
+
+    background:url('images/image01.jpg')center no-repeat;
+    background-size:cover;
+    min-width:100%;
+    min-height: 38rem;
+   /* image-rendering: pixelated;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    display: grid;*/
+    justify-content: center;
+    align-items: center;
+    /*overflow: hidden;*/
+ }
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 4rem auto;
+}
+.image1{
+    width: 15rem;
+
+}
+
+.image1 img{
+    width: 100%;
+}
+.fit h3{
+font-size: 1.95rem;
+color: black;
+text-align: center;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    /*margin: 4rem auto;*/
+}
+
+.box p{
+    align-items: center;
+    text-align: center;
+    color: black;
+}
