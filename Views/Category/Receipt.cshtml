@@ -1,0 +1,107 @@
+﻿@model Project.Models.Receipt
+
+
+@{
+    ViewBag.Title = "Receipt";
+}
+
+<style>
+    form {
+        /* Just to center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* To see the outline of the form */
+        padding: 1em;
+        border: 2px solid #000000;
+        border-radius: 1em;
+    }
+</style>
+
+<div id="wrapper" class="wrapper">
+
+    <div class="col-md-4">
+        <img class="floated_img" width="400" height="400" src="@Url.Content(@ViewBag.Image)" alt="jewellery">
+    </div>
+
+    <div class="col-md-2">
+        <label style="display:none">aaaaaaa</label>
+    </div>
+    <!----forms---->
+
+    <div class="col-md-5 ">
+        @using (Html.BeginForm("Order", "Category", FormMethod.Post))
+        {
+            <br />
+
+            <div style="margin-top:15px" class="text-center">
+                <label id="r" style="color:black; font-family:'Berlin Sans FB'; font-size:xx-large  ; font-style:italic oblique ">
+                    Reciept
+                </label>
+            </div>
+
+
+            <div class="form-group">
+
+                @Html.LabelFor(m => m, "Name : ", new { id = "name", style = "color:black; font-family:'Berlin Sans FB'; font-size:larger; font-style:italic oblique " })
+                <label id="l1" style="color:red">
+                    @ViewBag.Name
+                </label>
+
+            </div>
+            <div class="form-group">
+
+                @Html.LabelFor(m => m.Address, "Address : ", new { id = "address", style = "color:black; font-family:'Berlin Sans FB'; font-size:larger; font-style:italic oblique " })
+                <label id="l1" style="color:red">
+                    @ViewBag.Address
+                </label>
+
+            </div>
+
+            <div class="form-group">
+
+                @Html.LabelFor(m => m.ProductName, "Product : ", new { id = "productName", style = "color:black; font-family:'Berlin Sans FB'; font-size:larger; font-style:italic oblique " })
+                <label id="l1" style="color:red">
+                    @ViewBag.Product
+                </label>
+
+            </div>
+
+            <div class="form-group">
+
+                @Html.LabelFor(m => m.Rate, "Rate : ", new { id = "rate", style = "color:black; font-family:'Berlin Sans FB'; font-size:larger; font-style:italic oblique " })
+                <label id="l1" style="color:red">
+                    @ViewBag.Rate
+                </label>
+
+            </div>
+
+            <div class="form-group">
+
+                @Html.LabelFor(m => m.Quantity, "Quantity: ", new { id = "qty", style = "color:black; font-family:'Berlin Sans FB'; font-size:larger; font-style:italic oblique " })
+                <label id="l1" style="color:red">
+                    @ViewBag.Quantity
+                </label>
+
+            </div>
+
+            <div class="form-group">
+
+                @Html.LabelFor(m => m.Price, "Total Amount : ", new { id = "price", style = "color:black; font-family:'Berlin Sans FB'; font-size:larger; font-style:italic oblique " })
+                <label id="l1" style="color:red">
+                    @ViewBag.Price
+                </label>
+
+            </div>
+
+
+
+            <div style="margin-top:15px" class="text-center">
+                <a href="~/Home/Index" class="btn btn-default" style="background-color:black; color:white; padding-top:1px; padding-bottom:1px;"><h4>OK</h4></a>
+            </div>
+
+        }
+
+    </div>
+</div>
+
+

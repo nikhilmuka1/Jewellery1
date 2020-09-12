@@ -1,0 +1,38 @@
+﻿@model List<Project.Models.Register>
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2>Admin</h2>
+
+<table>
+
+    <tr>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Address</td>
+        <td>City</td>
+        <td>Email</td>
+        <td>Password</td>
+    </tr>
+   
+       @foreach (var r in Model)
+{
+    <tr>
+        <td>@r.FirstName</td>
+        <td>@r.LastName</td>
+        <td>@r.Address</td>
+        <td>@r.Email</td>
+        <td>@r.Password</td>
+
+
+        <td>
+            <a href="/Admin/Update/@r.Id">Update</a>
+            <a href="/Admin/Delete/@r.Id">Delete</a>
+        </td>
+    </tr>
+
+}
+  
+</table>
+

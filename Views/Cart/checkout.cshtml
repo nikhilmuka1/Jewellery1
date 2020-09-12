@@ -1,0 +1,40 @@
+﻿@model Project.Models.Register
+
+@{
+   
+    Layout = "~/Views/Shared/_LayoutPage_cart.cshtml";
+}
+
+
+<h1><strong>Checkout</strong></h1>
+<div>
+    <h5><strong>BILLING INFORMATION</strong></h5>
+    <div class="content_half float_l checkout">
+        First Name:  <br />
+        @ViewBag.X.FirstName
+        <br />
+        <br />
+        Address: <br />
+        @ViewBag.X.Address
+        <br />
+        <br />
+        City: <br />
+        @ViewBag.X.City
+        <br />
+        <br />
+      
+    </div>
+
+    <div class="content_half float_r checkout">
+        E-MAIL <br />
+        @ViewBag.X.Email
+        <br />
+        <br />
+        
+    </div>
+
+    <div class="cleaner h50"></div>
+    <h3>SHOPPING CART</h3>
+    <h4>TOTAL AMOUNT: <strong>@ViewBag.X.checkoutamount</strong></h4>
+    <p style="margin-right:400px"><a href="/Cart/viewcustomerorders">View All Orders</a></p>
+</div>

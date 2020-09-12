@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "_LayoutPage_cart";
+}
+
+<h2>_LayoutPage_cart</h2>
+
+<div class="menu-row">
+    <div class="menu-border">
+        <div class="main">
+            <nav>
+                <ul class="menu">
+                    <li><a class="active" href="~/Home/Index">Home</a></li>
+
+                    <li><a href="~/Home/Products">Products To Order</a></li>
+
+                    <li><a href="/User/logout">  Log Out</a></li>
+                    <li class="last"><a href="~/Home/ContactUs">Contacts</a></li>
+                    <li><a href="~/Home/About">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div>
+    @RenderBody()
+</div>
+

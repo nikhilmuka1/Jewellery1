@@ -1,0 +1,125 @@
+﻿@using System.Web.Optimization;
+@model Project.Models.Register
+
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    
+}
+<script>
+    $(function () {
+
+    });
+</script>
+
+
+    <center>  <h1 style="color:purple;margin-top:10px;margin-left:270px;font-family:Aldhabi;text-align:left;font-size:50px">Welcome to Signup Page</h1><br /><br /></center>
+    <!----forms---->
+    <form class="form-horizontal" action="/User/SignUpValidation" method="post" enctype="multipart/form-data">
+        <!-- for jquery server side form verification -->
+        <div class="form-group" align="left" style="text-align:center">
+
+            @using (Html.BeginForm("Register", "User", FormMethod.Post))
+            {
+                <table style="margin-left:300px">
+                    <tr>
+                        
+                        
+                        <td>
+                            <p style="color: purple">@Html.LabelFor(m => m.FirstName)</p><br />
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.FirstName, new { id = "FirstName" })
+
+                            @Html.ValidationMessageFor(m => m.FirstName)
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p style="color: purple">  @Html.LabelFor(m => m.LastName) </p><br />
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.LastName, new { id = "LastName" })
+
+                            @Html.ValidationMessageFor(m => m.LastName)
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                           <p style="color: purple"> @Html.LabelFor(m => m.Address)</p> <br />
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.Address, new { id = "Address" })
+
+                            @Html.ValidationMessageFor(m => m.Address)
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p style="color: purple">   @Html.LabelFor(m => m.Email) </p> <br />
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.Email, new { id = "Email" })
+
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </td>
+                        <td>
+
+                            <div id="checking">Checking...</div>
+                            <div>
+
+                               <input type="button" id="b1" value="Check" />
+                                <div id="result"></div>
+                                @Scripts.Render("~/bundles/jquery")
+                                <script>
+
+                                    $(document).ready(function () {
+
+                                        $('#checking').hide();
+
+                                        $('#b1').click(function () {
+
+                                            var email = $('#Email').val();
+
+                                            //alert('User Name ='+ userName);
+                                            $('#checking').show();
+                                            $.getJSON("/User/CheckUserName?email=" + email, function (data) {
+                                                $('#checking').hide();
+                                                if (data) {
+                                                    $('#result').text("User already exists in database");
+
+                                                }
+                                                else {
+                                                    $('#result').text("User Name is available");
+                                                }
+                                            });
+
+                                        });
+
+                                    });
+                                </script>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                          <p style="color: purple">  @Html.LabelFor(m => m.Password)</p> <br />
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.Password, new { id = "Password" })
+
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </td>
+                    </tr>
+                    <tr style="align-items:center;text-align:center;text-decoration-color:aquamarine" ><td><br /><br /> <input class="btn btn-primary" type="submit" value="SignUp" /></td></tr>
+                </table>
+
+            }
+        </div>
+</form>
+
+

@@ -1,0 +1,41 @@
+﻿@model Project.Models.Order
+@{
+    
+    Layout = "~/Views/Shared/_LayoutPage_cart.cshtml";
+
+}
+
+<h2>Add_to_cart</h2>
+
+<div id="content" class="float_r">
+    <table width="680" cellspacing="0" cellpadding="5">
+        <tr>
+            <th width="180" align="left">Description </th>
+            <th width="100" align="center">Quantity </th>
+            <th width="100" align="center">Date </th>
+            <th width="60" align="right">Price </th>
+            <th width="60" align="right">Total </th>
+            <th width="90"> </th>
+
+
+        </tr>
+
+        @foreach (var x in ViewBag.X)
+        {
+        <tr>
+            <td>@x.name</td>
+            <td align="center">@x.Quantity </td>
+            <td align="right"> @x.Date </td>
+            <td align="right">Rs. @x.Price </td>
+            <td align="right">Rs. @x.Amount </td>
+            <td align="center"> @Html.ActionLink("Remove", "removeitemfromcart", new { id = x.OId })</td>
+        </tr>
+        }
+
+    </table>
+    <div style="float:right; width: 215px; margin-top: 20px;">
+        <p><a href="/Cart/checkout">Proceed to checkout</a></p>
+
+    </div>
+</div>
+

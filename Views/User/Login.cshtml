@@ -1,0 +1,82 @@
+﻿@model Project.Models.Register
+
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<center>
+    <center>  <h1 style="color:purple;margin-top:10px;margin-left:270px;font-family:Aldhabi;text-align:left;font-size:50px">Welcome to Login Page</h1><br /><br /></center>
+</center><br /><br /><br />
+
+<div id="leftPan" align="center" style="text-align:left">
+    <form action="~/User/Login" method="post" class="form-horizontal">
+
+        <table style="margin-left:300px">
+            <tr><td><p style="color: purple"><b>Email</b></p></td><td><input autofocus="" class="form-control input-md" width="200" id="email" name="email" placeholder="e.g. abc@gmail.com" type="email" value="" /></td></tr>
+            <tr>
+                <td><p style="color: purple"><b>Password</b>  </p></td>
+                <td>
+                   <br /> <input class="form-control input-md" width="200" id="password" name="password" placeholder="Password" required="" type="password" value="" /><br />
+                    <br />
+                </td>
+            </tr>
+            <tr><td>
+               
+                    <input type="submit" id="login" name="login" class="btn btn-primary" value="login" />
+</td></tr>
+        </table>
+
+        <br />
+        <p class="text-center" style="font:100;font-family:Arial;color:aliceblue">
+
+            <a style="color: purple;text-align:left" href="~/User/Register">Register for an account?</a>
+
+        </p>
+    </form>
+</div>  
+
+<!--<section>
+    <form class="form-horizontal" method="post" action="/Account/verifyUser">
+
+
+
+
+        <!-- Text input-->
+      <!--  <div class="form-group" align="center">
+            <label class="col-md-4 control-label" for="email">Email</label>
+            <div class="col-md-3">
+                <input autofocus="" class="form-control input-md" id="email" name="email" placeholder="e.g. example@domain.com" type="email" value="" />
+                <span class="field-validation-valid" data-valmsg-for="email" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <!-- Password input-->
+       <!-- <div class="form-group" align="center">
+            <label class="col-md-4 control-label" for="password">Password</label>
+            <div class="col-md-3">
+                <input class="form-control input-md" id="password" name="password" placeholder="Password" required="" type="password" value="" />
+                <span class="field-validation-valid" data-valmsg-for="password" data-valmsg-replace="true"></span>
+            </div>
+        </div>-->
+
+
+
+
+
+        <!-- Button -->
+      <!--  <div class="form-group">
+            <label class="col-md-4 control-label" for="login"></label>
+            <div class="col-md-1">
+                <input type="submit" id="login" name="login" class="btn btn-info btn-lg btn-block" value="login" />
+            </div>
+        </div>
+        <br />
+        <p class="text-center">
+
+            <a href="~/User/Register">Register for an account?</a>
+
+        </p>
+
+    </form>
+</section>-->

@@ -1,0 +1,96 @@
+﻿@model Project.Models.Order
+
+
+@{
+    ViewBag.Title = "Order";
+}
+
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script>
+    $(function () {
+        $("#datepicker").datepicker();
+    });
+</script>
+
+<style>
+    form {
+        /* Just to center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* To see the outline of the form */
+        padding: 1em;
+        border: 2px solid #000000;
+        border-radius: 1em;
+    }
+</style>
+
+<div id="wrapper" class="wrapper">
+
+    <div class="col-md-4">
+        <img class="floated_img" width="400" height="400" src="@Url.Content(@ViewBag.Image)" alt="@ViewBag.Image">
+    </div>
+
+    <div class="col-md-2">
+        <label style="display:none">aaaaaaa</label>
+    </div>
+    <!----forms---->
+
+    <div class="col-md-5 ">
+        @using (Html.BeginForm("Order", "Category", FormMethod.Post))
+        {
+            <br />
+
+
+
+
+            <div class="form-group">
+
+                @Html.LabelFor(m => m.Description, "Description *", new { id = "n1" })
+                @Html.TextBoxFor(m => m.Description, new { type = "text", @class = "form-control", id = "name" })
+                @Html.ValidationMessageFor(m => m.Description)
+            </div>
+            <div class="form-group">
+
+                @Html.LabelFor(m => m.Address, "Address *", new { id = "n2" })
+                @Html.TextBoxFor(m => m.Address, new { type = "text", @class = "form-control", id = "address" })
+                @Html.ValidationMessageFor(m => m.Address)
+            </div>
+
+
+
+         
+
+            <div>
+                <label>Date</label>
+                <p><input type="text" id="datepicker"></p>
+            </div>
+
+
+            <div class="form-group">
+
+                @Html.LabelFor(m => m.Quantity, "Quantity *", new { id = "st" })
+                @Html.DropDownList("qty")
+
+            </div>
+
+
+            <div>
+                <input type="hidden" value="@ViewBag.mreference" id="mreference" name="mreference">
+
+            </div>
+
+
+            <div style="margin-top:15px" class="text-center">
+                <button type="submit" class="btn btn-default" style="background-color:black; color:white; padding-top:2px; padding-bottom:1px;"><h4>Order!</h4></button>
+            </div>
+
+        }
+
+    </div>
+</div>
+
+

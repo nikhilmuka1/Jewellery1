@@ -1,2 +1,1 @@
-# jewellery
-Jewellery Website
+# JewelleryWebsite
